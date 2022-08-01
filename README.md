@@ -7,3 +7,9 @@ GET `https://frgapi.mcfrg.games/api/v2/<user>`
 `<user>` could be the flowing vaules:
 
 zdd
+
+ddk
+
+Bili0
+
+jinjin
