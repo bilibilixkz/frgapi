@@ -2,3 +2,4 @@
 多快好省 力争上游
 @bilibili_xkz 要不你把frgapi改成js的我扔上去？
 sunbuer：算盘打得真响
+可以自己编译）
