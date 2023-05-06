@@ -18,6 +18,7 @@ def getmsg(name):
 # Check if file exist
     else:
         msg = text.readlines()
+        text.close()
         return random.choice(msg)
 # Random select one line and return
 
