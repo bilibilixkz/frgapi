@@ -1,5 +1,4 @@
 from flask import Flask,redirect,abort
-import os
 import random
 
 app = Flask(__name__)
@@ -20,7 +19,7 @@ def getmsg(name):
         msg = text.readlines()
         text.close()
         return random.choice(msg)
-# Random select one line and return
+# Random select one line and return it
 
 if __name__ == '__main__':
     app.run()
