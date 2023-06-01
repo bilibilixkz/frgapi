@@ -1,4 +1,4 @@
-from flask import Flask,redirect,abort
+from flask import Flask,redirect,abort,make_response
 import random
 
 app = Flask(__name__)
@@ -18,7 +18,10 @@ def getmsg(name):
     else:
         msg = text.readlines()
         text.close()
-        return random.choice(msg)
+        response = make_response(random.choice(msg))
+        response.mimetype = 'text/plain'
+# Set MIME
+        return response
 # Random select one line and return it
 
 if __name__ == '__main__':
